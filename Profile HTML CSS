@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  body{background-color: lightblue;
+  }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    div{
+    border: 1px white ;
+    padding:10px;
+    width:50;
+    height:150;
+    background-color: white;
+    border-radius: 9px;
+    }
+  </style>
+</head>
+<body>
+<div>
+<img src="/storage/emulated/0/Android/media/com.transsion.phoenix/PHX_Archive/phx_extracted/profile-card-component-main/images/bg-pattern-card.svg"width="325px"height="160px;"></img>
+<img src="/storage/emulated/0/Android/media/com.transsion.phoenix/PHX_Archive/phx_extracted/profile-card-component-main/images/image-victor.jpg" style="background-color:white;border-radius:50px; position: relative; bottom:40px;left:110px;">
+<b>Victor Crest</b>26
+ <p></p>
+ <center> London</center>
+<p></p>
+<hr></hr>
+  <p style="position: relative;left:15px; bottom:7px;">80K
+<p style="position: relative; bottom:15px;left:5px; font-size:10px;">Followers</p>
+  <p style="position: relative;left:140px; bottom:76px;">803K
+  <p style="position: relative; left:148px; bottom:87px; font-size:10px;">Likes</p>
+ <p style="position: relative;left:250px; bottom:143px;"> 1.4K</p>
+ <p style="position: relative; left:252px; bottom:155px; font-size:10px;"> Photos</p>
+  </div>
+</body>
+</html>
